@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeeiotApi", "GeeiotApi\GeeiotApi.csproj", "{413B21E1-BC43-452A-A697-A46D3BFAD05C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{B030AEAB-1CED-41CC-942C-D08565AA3DAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IP2Region", "IP2Region\IP2Region.csproj", "{DFCC7DE5-3FA6-4E5F-8954-DCDAEB3686B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WithSalt.Common", "WithSalt.Common\WithSalt.Common.csproj", "{AC16509D-BFE9-443D-8D51-3C3FFCCDBB85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{413B21E1-BC43-452A-A697-A46D3BFAD05C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{413B21E1-BC43-452A-A697-A46D3BFAD05C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{413B21E1-BC43-452A-A697-A46D3BFAD05C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{413B21E1-BC43-452A-A697-A46D3BFAD05C}.Debug|x64.Build.0 = Debug|Any CPU
+		{413B21E1-BC43-452A-A697-A46D3BFAD05C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{413B21E1-BC43-452A-A697-A46D3BFAD05C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{413B21E1-BC43-452A-A697-A46D3BFAD05C}.Release|x64.ActiveCfg = Release|Any CPU
+		{413B21E1-BC43-452A-A697-A46D3BFAD05C}.Release|x64.Build.0 = Release|Any CPU
+		{DFCC7DE5-3FA6-4E5F-8954-DCDAEB3686B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFCC7DE5-3FA6-4E5F-8954-DCDAEB3686B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFCC7DE5-3FA6-4E5F-8954-DCDAEB3686B1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DFCC7DE5-3FA6-4E5F-8954-DCDAEB3686B1}.Debug|x64.Build.0 = Debug|Any CPU
+		{DFCC7DE5-3FA6-4E5F-8954-DCDAEB3686B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFCC7DE5-3FA6-4E5F-8954-DCDAEB3686B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFCC7DE5-3FA6-4E5F-8954-DCDAEB3686B1}.Release|x64.ActiveCfg = Release|Any CPU
+		{DFCC7DE5-3FA6-4E5F-8954-DCDAEB3686B1}.Release|x64.Build.0 = Release|Any CPU
+		{AC16509D-BFE9-443D-8D51-3C3FFCCDBB85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC16509D-BFE9-443D-8D51-3C3FFCCDBB85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC16509D-BFE9-443D-8D51-3C3FFCCDBB85}.Debug|x64.ActiveCfg = Debug|x64
+		{AC16509D-BFE9-443D-8D51-3C3FFCCDBB85}.Debug|x64.Build.0 = Debug|x64
+		{AC16509D-BFE9-443D-8D51-3C3FFCCDBB85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC16509D-BFE9-443D-8D51-3C3FFCCDBB85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC16509D-BFE9-443D-8D51-3C3FFCCDBB85}.Release|x64.ActiveCfg = Release|x64
+		{AC16509D-BFE9-443D-8D51-3C3FFCCDBB85}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DFCC7DE5-3FA6-4E5F-8954-DCDAEB3686B1} = {B030AEAB-1CED-41CC-942C-D08565AA3DAC}
+		{AC16509D-BFE9-443D-8D51-3C3FFCCDBB85} = {B030AEAB-1CED-41CC-942C-D08565AA3DAC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79B1A2E2-4811-40CD-99FC-FBC98A2FCD10}
+	EndGlobalSection
+EndGlobal
